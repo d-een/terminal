@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w2.org/1999/xhtml">
+<html lang="en">
+    <head>
+	<meta name="generator" content="Hugo 0.119.0">
+            <meta charset="utf-8" />
+    <title>flags </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta property="og:title" content="flags" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://example.org/" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href=""/>
+    <link rel="canonical" href="https://example.org/" />    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.33.2/js/jquery.terminal.min.js"></script>
+    <script src="https://unpkg.com/jquery.terminal/js/autocomplete_menu.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/2.33.2/css/jquery.terminal.min.css" rel="stylesheet"/>
+
+    <style>
+        body {
+            width: 100%;
+            font-size: 18px;
+        }
+    </style>
+    
+    </head>
+        <body>
+        
+<script> 
+jQuery(document).ready(function($) {
+    var animation = false;
+    var availableCommands = ["whois", 'social', 'work', 'education',
+                    'skills', 'softskills', 'languages',
+                    'projects',
+	             'certifications', 
+                    
+                    
+                    "misc",
+                    
+                    ] 
+
+    $('body').terminal(function(command, term) {
+
+     
+    function whois () {
+        term.echo ("");
+         
+            term.echo ("[[b;grey;]Name:]\t\t\tPacket Sikh");
+            term.echo ("[[b;grey;]Profession:]\t\tCyber Security Researcher");
+            term.echo ("[[b;grey;]Location:]\t\tKenya");
+            
+                term.echo ("[[b;grey;]Email:]\t\t\tdin.bashir00@gmail.com");
+            
+            
+                term.echo ("[[b;grey;]Homepage:]\t\td-een.github.io");
+            
+            
+                term.echo ("")
+                term.echo ("Cyber Security researcher and bounty hunter.\nLet\u0027s hack the planet!\n")
+            
+        
+        term.echo ("");
+      }
+
+    function social () {
+        term.echo("");
+        
+            
+                 
+                    term.echo("          https:\/\/github.com");
+                 
+                    term.echo("        https:\/\/facebook.com");
+                 
+                    term.echo("         https:\/\/myspace.com");
+                 
+                    term.echo("             https:\/\/www.hi5.com");
+                 
+                    term.echo("       https:\/\/instagram.com");
+                 
+                    term.echo("  https:\/\/anothersocial.com");
+                
+            
+        
+        term.echo("")
+    }
+	    
+    function certifications () {
+        term.echo("");
+        
+            
+                term.echo("[[b;grey;]Example Cert]");
+	    	term.echo("Date of Completion");
+                
+                    term.echo("Example Certifying Company");
+                
+                
+                    term.echo("Lorem Ipsums");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+        
+    }
+	    
+    function work () {
+        term.echo("");
+        
+    }
+
+    function education () {
+        term.echo("");
+        
+            
+                term.echo("[[b;red;]Red Color training]");
+                term.echo("June 2019 - July 2019");
+                
+                    term.echo("Descrption about red color trianing");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+                term.echo("[[b;grey;]Default color training]");
+                term.echo("Sept 2004 - Jun 2008");
+                
+                term.echo("-------------------- ");
+                term.echo("");
+            
+        
+    }
+
+    function skills () {
+        term.echo(" ");
+        
+            
+                var bar_length = Math.round( 100  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;grey;]OSINT:]\n" +
+                        bar_filled + bar_blank + 
+                         100  +"%");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 50  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;red;]Web Sec:]\n" +
+                        bar_filled + bar_blank + 
+                         50  +"%");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 50  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;red;]Net Sec:]\n" +
+                        bar_filled + bar_blank + 
+                         50  +"%");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 100  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;brown;]Cryptography:]\n" +
+                        bar_filled + bar_blank + 
+                         100  +"%");
+                
+                term.echo ("")
+            
+        
+    }
+    function softskills () {
+        term.echo("");
+        
+            
+                var bar_length = Math.round( 80  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;red\/blue;]Report writing:]\n" +
+                       bar_filled + bar_blank +
+                        80  +"%");
+                
+                term.echo ("")
+            
+                var bar_length = Math.round( 90  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;grey;]Analysis:]\n" +
+                       bar_filled + bar_blank +
+                        90  +"%");
+                
+                    term.echo("Description");
+                
+                term.echo ("")
+            
+        
+    }
+      
+    function languages () {
+        term.echo("");
+        
+            
+                var bar_length = Math.round( 70  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;Blue;]English:]\n" +
+                        "" + bar_filled + bar_blank + 
+                        " " +  70  +"%");
+                
+                term.echo("")
+            
+                var bar_length = Math.round( 40  / 10);
+                var bar_filled = Array(bar_length + 1).join("&#9611;");
+                var bar_blank= Array(11 - bar_length).join("&#9617;");
+                term.echo("[[b;grey;]Greek:]\n" +
+                        "" + bar_filled + bar_blank + 
+                        " " +  40  +"%");
+                
+                    term.echo("Ans{gxgtjgctfvjguvqtacdqwvJcpkddcnqhEctvjcig?}");
+                
+                term.echo("")
+            
+        
+    }
+
+    
+    function projects () {
+        term.echo("");
+        
+            
+                term.echo("[[b;red;]Project Red]");
+                term.echo("since 2020")
+                term.echo("")
+                
+                    term.echo("red stuff");
+                
+                term.echo("-----------------------");
+                term.echo("");
+          
+                term.echo("[[b;blue;]Project Blue]");
+                term.echo("since 2023")
+                term.echo("")
+                
+                    term.echo("blue stuff");
+                
+                term.echo("-----------------------");
+                term.echo("");
+          
+                term.echo("[[b;grey;]Man]");
+                term.echo("time")
+                term.echo("https:\/\/example.com\/default")
+                
+                term.echo("-----------------------");
+                term.echo("");
+          
+        
+    }
+
+    function misc (){
+        term.echo ("")
+        term.echo("[[b;teal;]sudo]" + "\n")
+        term.echo ("[[;white;]Linux users really like sudo! What would life be without sudo?\nWhat would life be without a terminal?\nHard to think about such, anyway let\u0027s hope they don\u0027t find a way to post ads on the terminal\nTalk about ads..let me introduce you to a very good recon tool developed by Heuristiq, xurlfind3r\nYou can read more about it here https:\/\/github.com\/hueristiq\/xurlfind3r \nBe sure to try it out\nAdios Muchachos\n]")
+        term.echo ("")
+    }
+
+    function help () {
+        term.echo("\n[[b;white;]Available commands:]\n" +
+                  "\n" + availableCommands.join(' ')+ '\n') 
+    }
+
+      function source() {
+          term.echo("        _______            \n"+
+                    "       |       |           \n"+
+                    "       |       |           \n"+
+                    "       |_______|_______    \n"+
+	                "               |       |   \n"+
+                    "               |       |   \n"+
+                    " ______________|_______|   \n"+
+                    "|      |       |       |   \n"+
+                    "|      |       |       |   \n"+
+                    "|______|_______|_______|   \n"+
+                    "[[;red;]May the source be with you]\n");
+      }
+
+    
+    function progress(percent, width) {
+        var size = Math.round(width*percent/100);
+        var left = '', taken = '', i;
+        for (i=size; i--;) {
+            taken += '=';
+        }
+        if (taken.length > 0) {
+            taken = taken.replace(/=$/, '>');
+        }
+        for (i=width-size; i--;) {
+            left += ' ';
+        }
+        return '[' + taken + left + '] ' + percent + '%';
+    }
+
+    function loading () {
+        var i = 0, size = 30;
+        prompt = term.get_prompt();
+        string = progress(0, size);
+        term.set_prompt(progress);
+        animation = true;
+        (function loop() {
+            string = progress(i++, size);
+            term.set_prompt(string);
+            if (i < 100) {
+                timer = setTimeout(loop, 10);
+            } else {
+                term.echo(progress(i, size) + ' [[b;green;]OK]').set_prompt(prompt);
+                animation = false
+            }
+        })();
+    }
+
+       
+        commands = command.split(/[ ]+/);
+        switch(commands[0]) {
+            case 'whois':
+                whois();
+                break;
+            case 'social':
+                social();
+                break;
+            case 'work':
+                work();
+                break;
+            case 'education':
+                education();
+                break;
+            case 'skills':
+                skills();
+                break;
+            case 'softskills':
+                softskills();
+                break;
+            case 'languages':
+                languages();
+                break;
+            case 'projects':
+                projects();
+                break;
+	    case 'certifications':
+                certifications();
+                break;
+            case 'misc':
+                misc();
+                break;
+            case 'help':
+                help();
+                break;
+            case 'all':
+                whois();
+                social();
+                work();
+                education();
+                skills();
+                softskills();
+                languages();
+                projects();
+		certifications();
+                
+                    misc();
+                
+                
+                break;
+            
+            case ':(){:|:&};:':
+            case 'source':
+                source();
+                break;
+            
+            default:
+                term.echo("\nunknown command: " + command + "\n");
+        }
+    }, {
+        prompt: '[[;grey;]][[;grey;]:~$]' + " ",
+        greetings: "[[b;white;]Welcome!\nYou have SH3LL\nor do you?\n]",
+        keydown: function(e, term) {
+            if (animation) {
+                if (e.which == 68 && e.ctrlKey) { 
+                    clearTimeout(timer);
+                    animation = false;
+                    term.echo(string + ' [[b;red;]FAIL]')
+                    .set_prompt(prompt);
+                }
+                return false;
+            }
+        },
+        autocompleteMenu: true,
+        completion: availableCommands
+        
+    });
+});
+</script>
+
+        </body>
+</html>
