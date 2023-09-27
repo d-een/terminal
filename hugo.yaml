@@ -6,7 +6,7 @@ title: "flag"
 params:
 #  description: "4s3ti cv terminal format"
 #  prompt: "newuser@terminalcv"
-promptColor: white
+# promptColor: white
 # promptSimbols: ":~$"
 # promptSimbolsColor: white
 # startxLocation: https://example.com
