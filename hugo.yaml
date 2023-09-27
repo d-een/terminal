@@ -1,6 +1,6 @@
 ## Example Config file
 BaseURL: "https://d-een.github.io"
-theme: "terminalCV"
+theme: "terminalcv"
 title: "flag"
 
 params:
