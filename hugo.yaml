@@ -147,7 +147,7 @@ params:
   misc: 
     commandName: misc
     title: sudo
-    titleColor: teal
+    titleColor: green
     content: |
           Linux users really like sudo! What would life be without sudo?
           What would life be without a terminal?
