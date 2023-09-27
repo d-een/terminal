@@ -6,9 +6,9 @@ title: "flag"
 params:
 #  description: "4s3ti cv terminal format"
 #  prompt: "newuser@terminalcv"
-# promptColor: grey
-# promptSimbols: ":~$"
-# promptSimbolsColor: grey
+promptColor: white
+promptSimbols: ":~$"
+promptSimbolsColor: white
 # startxLocation: https://example.com
   hideSocialName: true
 # exitLocation: 'about:blank'
