@@ -1,0 +1,161 @@
+## Example Config file
+BaseURL: "https://d-een.github.io"
+theme: "terminalCV"
+title: "flag"
+
+params:
+#  description: "4s3ti cv terminal format"
+#  prompt: "newuser@terminalcv"
+# promptColor: grey
+# promptSimbols: ":~$"
+# promptSimbolsColor: grey
+# startxLocation: https://example.com
+  hideSocialName: true
+# exitLocation: 'about:blank'
+  hidesource: true
+  greeting: | 
+    Welcome!
+    You have SH3LL
+    or do you?
+    
+
+  whois: 
+      name: "Packet Sikh"
+      profession: "Cyber Security Researcher"
+      location: "Kenya"
+      email: "din.bashir00@gmail.com"
+      homelink: "d-een.github.io"
+      description: |
+              Cyber Security researcher and bounty hunter.
+              Let's hack the planet!
+              
+
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "github"
+      url: "          https://github.com"
+    - name: "facebook"
+      url: "        https://facebook.com"
+    - name: "myspace"
+      url: "         https://myspace.com"
+    - name: "hi5"
+      url: "             https://www.hi5.com"
+    - name: "instagram"
+      url: "       https://instagram.com"
+    - name: "Another social"
+      url: "  https://anothersocial.com"
+
+  workexp:
+    - jobTitle: Job With Red Title
+      color: red
+      company: '-' 
+      location: somewhere
+      date: August 2010 - Present
+      description: Some description about this red title job
+
+    - jobTitle: Job with purple title
+      color: purple
+      company: '-'
+      location: somewhere elese
+      date: July 2000  - July 2010
+      description: Some description about this purple job
+
+    - jobTitle: Job with default color title
+      company: '-'
+      location: anywhere
+      date: July 2008 - 2010
+      description: Description about this default color job
+
+  education:
+   - courseName: Red Color training
+     color: red
+     date: June 2019 - July 2019
+     description: Descrption about red color trianing
+
+   - courseName: Default color training
+     date: Sept 2004 - Jun 2008
+     #description: There is no need for description
+
+  skills:
+    - name: OSINT
+      percentage: 100
+      Description: will you find the flag or will the flag find you!
+
+    - name: Web Sec
+      color: red
+      percentage: 50
+      #description: or you can leave it comented   
+
+    - name: Net Sec
+      color: red
+      percentage: 50
+      #description: Skill names can have colors too
+
+    - name : Cryptography
+      color: brown
+      percentage: 100
+      
+
+
+  softskills:
+    - name: Report writing
+      color: red/blue
+      percentage: 80
+      #description:
+
+    - name: Analysis
+      #color: 
+      percentage: 90
+      description: Description
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 70
+      #description: 
+
+    - name: Greek
+      percentage: 40 
+      description: Ans{gxgtjgctfvjguvqtacdqwvJcpkddcnqhEctvjcig?}
+
+
+
+  projects:
+    - title: Project Red
+      color: red
+      date: since 2020
+      #link: https://example.com
+      description: red stuff
+
+    - title: Project Blue
+      color: blue
+      date: since 2023
+      #link: https://example.com/blue
+      description: blue stuff
+
+    - title: Man
+      date: time
+      link: https://example.com/default
+      #description: not there either
+
+  certifications:
+    - certName: Example Cert
+      company: Example Certifying Company
+      date: Date of Completion
+      description: Lorem Ipsums
+  
+  misc: 
+    commandName: misc
+    title: sudo
+    titleColor: teal
+    content: |
+          Linux users really like sudo! What would life be without sudo?
+          What would life be without a terminal?
+          Hard to think about such, anyway let's hope they don't find a way to post ads on the terminal
+          Talk about ads..let me introduce you to a very good recon tool developed by Heuristiq, xurlfind3r
+          You can read more about it here https://github.com/hueristiq/xurlfind3r 
+          Be sure to try it out
+          Adios Muchachos
+
+    contentColor: white
+    
